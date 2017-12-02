@@ -1,5 +1,5 @@
 
-use common::*;
+use olap::common::*;
 
 #[derive(Debug)]
 pub struct Column{

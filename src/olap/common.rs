@@ -1,5 +1,6 @@
+extern crate chrono;
 
-use chrono::prelude::*;
+use olap::chrono::prelude::*;
 
 #[derive(Debug)]
 pub enum DataType {

@@ -1,13 +1,13 @@
 
-use common::*;
-use column::*;
+use olap::common::*;
+use olap::column::*;
 use std::collections::HashMap;
 
 #[derive(Debug)]
 pub struct Cube{
-    name: String,
-    row_count: usize,
-    columns: HashMap<String,Column>
+    pub name: String,
+    pub row_count: usize,
+    pub columns: HashMap<String,Column>
 }
 
 // type Value = Option;
